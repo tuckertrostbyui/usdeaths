@@ -21,7 +21,7 @@ library(httr2)
 
 ## Get the Metadata
 ```{r meta}
-meta <- data_multiple_mortality_1969
+meta <- data_mortality_multiple_1969
 ```
 
 ## Download the Data

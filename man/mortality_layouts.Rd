@@ -3,15 +3,15 @@
 \docType{data}
 \name{mortality_layouts}
 \alias{mortality_layouts}
-\alias{data_multiple_mortality_1969}
-\alias{data_multiple_mortality_2023}
-\alias{data_multiple_mortality_2003}
-\alias{data_multiple_mortality_2004}
-\alias{data_multiple_mortality_2005}
-\alias{data_multiple_mortality_2006}
-\alias{data_multiple_mortality_2007}
-\alias{data_multiple_mortality_2008}
-\alias{data_multiple_mortality_2009}
+\alias{data_mortality_multiple_1969}
+\alias{data_mortality_multiple_2023}
+\alias{data_mortality_multiple_2003}
+\alias{data_mortality_multiple_2004}
+\alias{data_mortality_multiple_2005}
+\alias{data_mortality_multiple_2006}
+\alias{data_mortality_multiple_2007}
+\alias{data_mortality_multiple_2008}
+\alias{data_mortality_multiple_2009}
 \title{Mortality multiple cause data layouts}
 \format{
 A tibble with 7 variables:
@@ -47,23 +47,23 @@ An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) w
 \url{https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/mortality/}
 }
 \usage{
-data_multiple_mortality_1969
+data_mortality_multiple_1969
 
-data_multiple_mortality_2023
+data_mortality_multiple_2023
 
-data_multiple_mortality_2003
+data_mortality_multiple_2003
 
-data_multiple_mortality_2004
+data_mortality_multiple_2004
 
-data_multiple_mortality_2005
+data_mortality_multiple_2005
 
-data_multiple_mortality_2006
+data_mortality_multiple_2006
 
-data_multiple_mortality_2007
+data_mortality_multiple_2007
 
-data_multiple_mortality_2008
+data_mortality_multiple_2008
 
-data_multiple_mortality_2009
+data_mortality_multiple_2009
 }
 \description{
 Metadata tables describing the fixed-width file layout for US mortality
