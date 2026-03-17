@@ -29,18 +29,100 @@ NULL
 #' @rdname birth_cohort_layouts
 "data_birth_cohort_1983"
 
+#' @rdname birth_cohort_layouts
+"data_birth_cohort_2008"
+
+#' @rdname birth_cohort_layouts
+"data_birth_cohort_2009"
+
+#' @rdname birth_cohort_layouts
+"data_birth_cohort_2010"
+
+#' @rdname birth_cohort_layouts
+#' @note Substantial restructuring from 2010: revision codes revert to R/U,
+#'   birth time added at positions 25-28, paternity acknowledged added at 152,
+#'   unrevised education fields dropped, father's education added, prior
+#'   terminations added, WIC and pre-pregnancy cigarettes added, infections
+#'   block added, maternal morbidity block added, APGAR-10 added, and a large
+#'   new block of fields (524-568) covering BMI, inter-pregnancy intervals,
+#'   maternal height/weight, and set order. Reporting flags restructured to
+#'   4-level codes.
+"data_birth_cohort_2011"
+
+#' @rdname birth_cohort_layouts
+#' @note Identical structure to 2011 except father's combined age unrevised
+#'   (positions 184-185) is dropped to filler.
+"data_birth_cohort_2012"
 
 #' Births Layouts
 #'
-#' Layout data for births files.
+#' Layout data for births files. These layouts define the fixed-width column
+#' positions used to parse CDC natality data files.
+#'
+#' @note Files for 1968-1972 are distributed by CDC as Microsoft Publisher
+#'   (.pub) files which require conversion via LibreOffice before reading.
+#'   Conversion takes approximately 10-20 minutes per file. Pre-converted
+#'   versions of these files are available as a GitHub release to avoid
+#'   this conversion step. See the package README for details.
 #'
 #' @name births_layouts
 #' @docType data
 NULL
 
 #' @rdname births_layouts
+"data_births_1968"
+
+#' @rdname births_layouts
+"data_births_1969"
+
+#' @rdname births_layouts
+"data_births_1970"
+
+#' @rdname births_layouts
+"data_births_1971"
+
+#' @rdname births_layouts
+"data_births_1972"
+
+#' @rdname births_layouts
+"data_births_1973"
+
+#' @rdname births_layouts
+"data_births_1974"
+
+#' @rdname births_layouts
+"data_births_1975"
+
+#' @rdname births_layouts
+"data_births_1976"
+
+#' @rdname births_layouts
+"data_births_1977"
+
+#' @rdname births_layouts
 "data_births_1978"
 
+
+#' @rdname births_layouts
+"data_births_2018"
+
+#' @rdname births_layouts
+"data_births_2019"
+
+#' @rdname births_layouts
+"data_births_2020"
+
+#' @rdname births_layouts
+"data_births_2021"
+
+#' @rdname births_layouts
+"data_births_2022"
+
+#' @rdname births_layouts
+"data_births_2023"
+
+#' @rdname births_layouts
+"data_births_2024"
 
 #' Fetal Death Layouts
 #'

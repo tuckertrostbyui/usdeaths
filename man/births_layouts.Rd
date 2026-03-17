@@ -3,15 +3,108 @@
 \docType{data}
 \name{births_layouts}
 \alias{births_layouts}
+\alias{data_births_1968}
+\alias{data_births_1969}
+\alias{data_births_1970}
+\alias{data_births_1971}
+\alias{data_births_1972}
+\alias{data_births_1973}
+\alias{data_births_1974}
+\alias{data_births_1975}
+\alias{data_births_1976}
+\alias{data_births_1977}
 \alias{data_births_1978}
+\alias{data_births_2018}
+\alias{data_births_2019}
+\alias{data_births_2020}
+\alias{data_births_2021}
+\alias{data_births_2022}
+\alias{data_births_2023}
+\alias{data_births_2024}
 \title{Births Layouts}
 \format{
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 41 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 103 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 103 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 103 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 114 rows and 7 columns.
+
 An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 127 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 144 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
+
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 284 rows and 7 columns.
 }
 \usage{
+data_births_1968
+
+data_births_1969
+
+data_births_1970
+
+data_births_1971
+
+data_births_1972
+
+data_births_1973
+
+data_births_1974
+
+data_births_1975
+
+data_births_1976
+
+data_births_1977
+
 data_births_1978
+
+data_births_2018
+
+data_births_2019
+
+data_births_2020
+
+data_births_2021
+
+data_births_2022
+
+data_births_2023
+
+data_births_2024
 }
 \description{
-Layout data for births files.
+Layout data for births files. These layouts define the fixed-width column
+positions used to parse CDC natality data files.
+}
+\note{
+Files for 1968-1972 are distributed by CDC as Microsoft Publisher
+(.pub) files which require conversion via LibreOffice before reading.
+Conversion takes approximately 10-20 minutes per file. Pre-converted
+versions of these files are available as a GitHub release to avoid
+this conversion step. See the package README for details.
 }
 \keyword{datasets}
