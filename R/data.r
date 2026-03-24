@@ -105,6 +105,47 @@ NULL
 "data_mortality_multiple_1987"
 
 #' @rdname mortality_layouts
+#' @note Unique layout: \\code{data_year} is a 2-digit field at positions 1–2 (e.g., 95 = 1995).
+#'   Positions 102–118 are reserved (no \\code{current_data_year} field). ICD-9 coding.
+#'   20 entity-axis and 20 record-axis condition fields. 440-character record length.
+"data_mortality_multiple_1995"
+
+#' @rdname mortality_layouts
+#' @note Positions 1–3 are reserved (\\code{data_year} field removed from the start of the record).
+#'   \\code{current_data_year} introduced as a 4-digit field at positions 115–118.
+#'   ICD-9 coding. This layout is shared with 1997 and 1998.
+"data_mortality_multiple_1996"
+
+#' @rdname mortality_layouts
+#' @note Layout is identical to 1996. ICD-9 coding.
+"data_mortality_multiple_1997"
+
+#' @rdname mortality_layouts
+#' @note Layout is identical to 1996–1997. Final year of ICD-9 cause-of-death coding.
+"data_mortality_multiple_1998"
+
+#' @rdname mortality_layouts
+#' @note First year of ICD-10 cause-of-death coding. \\code{manner_of_death} (position 139) and
+#'   \\code{activity_code} (position 140) are introduced. \\code{place_of_accident} renamed to
+#'   \\code{place_of_injury} (position 141). \\code{cause_recode_52} removed; \\code{cause_recode_358},
+#'   \\code{cause_recode_113}, \\code{infant_cause_recode_130}, and \\code{cause_recode_39} replace
+#'   the ICD-9 recode fields. Northern Marianas added to state codes effective with 1998 data.
+#'   This layout is shared with 2000, 2001, and 2002.
+"data_mortality_multiple_1999"
+
+#' @rdname mortality_layouts
+#' @note Layout is identical to 1999. ICD-10 coding (interim period).
+"data_mortality_multiple_2000"
+
+#' @rdname mortality_layouts
+#' @note Layout is identical to 1999–2000. ICD-10 coding (interim period).
+"data_mortality_multiple_2001"
+
+#' @rdname mortality_layouts
+#' @note Layout is identical to 1999–2001. Final year of the interim ICD-10 public-use layout.
+"data_mortality_multiple_2002"
+
+#' @rdname mortality_layouts
 #' @note Both 1989 and 2003 education revision fields are present. Bridged-race
 #'   variables are the only race summary fields; \code{race_recode_40} is absent.
 #' @note Occupation and industry fields are absent. \code{method_of_disposition}
